@@ -1,0 +1,18 @@
+.button {
+    border: none;
+    background-color: #ddd;
+    color: #124b96;
+    padding: 8px 16px;
+    margin: 0 4px;
+    cursor: pointer;
+  }
+
+  .button.active {
+    background-color: #124b96;
+    color: #fff;
+  }
+
+  .button.disabled{
+    pointer-events: none;
+    color: rgb(52, 51, 51);
+  }

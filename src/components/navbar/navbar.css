@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #124b96;
+    color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-left,
+  .navbar-right {
+    flex: 1;
+    cursor: pointer;
+  }
+  
+  .navbar-center {
+    flex: 2;
+    text-align: center;
+  }
+  
+  .navbar-center h1 {
+    margin: 0;
+    font-size: 24px;
+  }
